@@ -15,4 +15,4 @@ spec:
     selector:
       matchLabels:
         someKey: someValue
-
+        other-key: other-value
