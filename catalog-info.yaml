@@ -16,3 +16,4 @@ spec:
       matchLabels:
         someKey: someValue
         other-key: other-value
+        app.kubernetes.io/name: dice-roller
