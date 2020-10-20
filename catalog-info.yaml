@@ -11,4 +11,8 @@ spec:
   type: service
   lifecycle: production
   owner: guest
+  kubernetes:
+    selector:
+      matchLabels:
+        someKey: someValue
 
