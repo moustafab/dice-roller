@@ -7,13 +7,8 @@ metadata:
     - go
   annotations:
     "backstage.io/kubernetes-id": dice-roller
+    "backstage.io/kubernetes-label-selector": "someKey=someValue,other-key=other-value,app.kubernetes.io/name=dice-roller"
 spec:
   type: service
   lifecycle: production
   owner: guest
-  kubernetes:
-    selector:
-      matchLabels:
-        someKey: someValue
-        other-key: other-value
-        app.kubernetes.io/name: dice-roller
